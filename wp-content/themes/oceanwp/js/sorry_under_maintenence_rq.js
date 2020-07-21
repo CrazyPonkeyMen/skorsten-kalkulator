@@ -1,0 +1,1 @@
+alert("Ta strona jest w trakcie produkcji, przepraszamy za utrudnienia");

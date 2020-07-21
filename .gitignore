@@ -1,12 +1,19 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/wordpress
+# Edit at https://www.toptal.com/developers/gitignore?templates=wordpress
+
+### WordPress ###
 # ignore everything in the root except the "wp-content" directory.
+/*
 !wp-content/
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
 wp-content/*
 !wp-content/mu-plugins/
-!wp-content/plugins/
-!wp-content/themes/
+!wp-content/themes
+wp-content/themes/oceanwp/*
+!wp-content/themes/oceanwp/js/
 
 # ignore these plugins
 wp-content/plugins/hello.php
@@ -21,3 +28,5 @@ node_modules/
 *.log
 *.sql
 *.sqlite
+
+# End of https://www.toptal.com/developers/gitignore/api/wordpress
